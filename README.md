@@ -1,2 +1,11 @@
 # django-with-ecs
-Self learning app which will host a simple Django App on ECS using Cloudformation. The app hosting will be done using a Jenkins Pipeline.
+
+A Simple Django app hosted on ECS.
+
+Steps:
+
+- CF Script to run Jenkins Master (Inside EC2, Service is executed using the official Jenkins LTS Docker)
+- Dockerfiles for the Django app. 
+- CF Script to host the Django app as an ECS Service.
+- Jenkins Pipeline script to trigger the aforementioned CF Script.
+
