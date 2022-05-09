@@ -17,3 +17,7 @@ The Procedure:
 2. Pipeline will first build the Docker Image using the Dockerfile. And the push the image to the pre-configured Dockerhub repo.
 3. Then the pipeline will run the Cloudformation script which will host the Docker application inside an ECS cluster fronted by an ALB.
 
+
+The CF Architecture:
+
+![image](https://user-images.githubusercontent.com/39367522/167414953-c75a4765-42c1-4b79-8f31-40cdc4040659.png)
